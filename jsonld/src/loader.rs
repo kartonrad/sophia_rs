@@ -12,6 +12,7 @@ use locspan::Location;
 use sophia_iri::Iri;
 
 pub use json_ld::future::{BoxFuture, FutureExt};
+pub use json_ld::loader::Loader;
 
 /// A dummy document loader, that does not load anything.
 pub type NoLoader =
